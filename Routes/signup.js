@@ -1,6 +1,6 @@
 const express = require("express");
 const {MongoClient} = require("mongodb");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const bodyparser = require("body-parser");
 const parser = bodyparser.json();
 

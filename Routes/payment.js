@@ -27,8 +27,8 @@ router.post("/checkout", parser, async (req, res) => {
                     quantity: item.quantity
                 }
             }),
-            success_url: `${process.env.SUCCESS_URL}`,
-            cancel_url: `${process.env.FAILED_URL}`
+            success_url: "https://raghavkhandelwal11.github.io/payment-status/Success.html",
+            cancel_url: "https://raghavkhandelwal11.github.io/payment-status/Failed.html"
 
         });
         console.log("success");
